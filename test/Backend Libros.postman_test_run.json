@@ -1,0 +1,237 @@
+{
+	"id": "b7609957-683d-445e-8d78-3eac8bcca768",
+	"name": "Backend Libros",
+	"timestamp": "2025-07-24T15:15:55.250Z",
+	"collection_id": "22674808-b04291cd-95f7-4988-bb93-93380a34156d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 15,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-07-24T15:15:50.904Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "099cbf56-922a-49cf-8f20-32704688f6b5",
+			"name": "📋Listar",
+			"url": "https://tmp-seven-azure.vercel.app/api/v1/books",
+			"time": 730,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has required fields": true,
+				"Message should be 'OK'": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message should be 'OK'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				730
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has required fields": true,
+					"Message should be 'OK'": true
+				}
+			]
+		},
+		{
+			"id": "8f093a11-74e0-4087-b9fa-d4f4e928df72",
+			"name": "➕Insertar",
+			"url": "https://tmp-seven-azure.vercel.app//api/v1/books",
+			"time": 394,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Message should be 'OK'": true,
+				"Ensure Response should have saved correctly": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message should be 'OK'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Ensure Response should have saved correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				394
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Message should be 'OK'": true,
+					"Ensure Response should have saved correctly": true
+				}
+			]
+		},
+		{
+			"id": "76255c18-2add-465d-ac14-58d39ac7a06b",
+			"name": "📄Listar Uno",
+			"url": "https://tmp-seven-azure.vercel.app//api/v1/books/68824e288b297f6301f0d541",
+			"time": 349,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Message should be 'OK'": true,
+				"insert id getone be 'OK'": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message should be 'OK'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"insert id getone be 'OK'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				349
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Message should be 'OK'": true,
+					"insert id getone be 'OK'": true
+				}
+			]
+		},
+		{
+			"id": "c318c6c2-9b4b-4b75-83b5-0ca7818216a9",
+			"name": "✏️Modificar",
+			"url": "https://tmp-seven-azure.vercel.app//api/v1/books/68824e288b297f6301f0d541",
+			"time": 361,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Message should be 'OK'": true,
+				"modif id getone be 'OK'": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message should be 'OK'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"modif id getone be 'OK'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				361
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Message should be 'OK'": true,
+					"modif id getone be 'OK'": true
+				}
+			]
+		},
+		{
+			"id": "7089bd54-3dbd-416f-be32-7dbdeb7e05fc",
+			"name": "❌Eliminar",
+			"url": "https://tmp-seven-azure.vercel.app//api/v1/books/68824e288b297f6301f0d541",
+			"time": 343,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Message should be 'OK'": true,
+				"elim id getone be 'OK'": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message should be 'OK'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"elim id getone be 'OK'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				343
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Message should be 'OK'": true,
+					"elim id getone be 'OK'": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2177,
+	"collection": {
+		"requests": [
+			{
+				"id": "099cbf56-922a-49cf-8f20-32704688f6b5",
+				"method": "GET"
+			},
+			{
+				"id": "8f093a11-74e0-4087-b9fa-d4f4e928df72",
+				"method": "POST"
+			},
+			{
+				"id": "76255c18-2add-465d-ac14-58d39ac7a06b",
+				"method": "GET"
+			},
+			{
+				"id": "c318c6c2-9b4b-4b75-83b5-0ca7818216a9",
+				"method": "PUT"
+			},
+			{
+				"id": "7089bd54-3dbd-416f-be32-7dbdeb7e05fc",
+				"method": "DELETE"
+			}
+		]
+	}
+}
